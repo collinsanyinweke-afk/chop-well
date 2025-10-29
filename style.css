@@ -1,3 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.diet{
+    padding: 60px 20px;
+    text-align: center;
+}
+.diet h3{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+.diet-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+.diet-card{
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+   overflow: hidden;
+    text-align: left;
+    width: 100%;
+    max-width: 300px;
+}
+.diet-card img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.diet-card h4{
+    font-size: 1.5rem;
+    margin: 15px;
+    color: #555;
+}
+.diet-card p{
+    font-size: 0.95rem;
+    margin: 0 16px 16px;
+    color: #555;
+}
+.explore-more{
+    text-align: center;
+    margin-top: 30px;
+}
+.explore-more a{
+    background: #ff6600;
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+    padding: 12px 24px;
+    text-decoration: none;
+}
+h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: red;
+    text-align: center;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
 body{
     background-color: aqua;
 }
